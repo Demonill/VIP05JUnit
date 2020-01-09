@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.maven.VIP05JUnitMaven.PlusTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in com.testing.maven.VIP05JUnitMaven.PlusTest
+test[左边界-1](com.testing.maven.VIP05JUnitMaven.PlusTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[-2147483649]> but was:<[2147483647]>
+	at com.testing.maven.VIP05JUnitMaven.PlusTest.test(PlusTest.java:47)
+
+doubleTest[左边界+0](com.testing.maven.VIP05JUnitMaven.PlusTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 测试结果 expected:<4.5> but was:<5.1>
+	at com.testing.maven.VIP05JUnitMaven.PlusTest.doubleTest(PlusTest.java:54)
+
